@@ -16,10 +16,29 @@ body {
 
 .header {
   display: flex;
+  background: #1f2937;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8
 }
 
 .header-links {
   display: flex;
+  gap: 24px;
+}
+
+.header-links li {
+  list-style-type: none;
+}
+
+.header-links a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
 }
 
 .head-section {
