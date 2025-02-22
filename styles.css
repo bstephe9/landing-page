@@ -11,6 +11,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  margin: 0px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -43,10 +44,47 @@ body {
 
 .head-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1f2937;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  gap: 20px;
 }
 
-.image-placeholder {
+.head-section .container {
+  width: 350px;
+  height: 60%;
+}
+
+.head-section .heading {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.head-section .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.head-section .button {
+  background-color: #3b82f6;
+  color: #f9faf8;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.head-section .image-placeholder {
   display: flex;
+  color: #f9faf8;
+  background: #6d747d;
+  align-items: center;
+  padding: 100px;
+  height: 60%;
 }
 
 .info-section {
