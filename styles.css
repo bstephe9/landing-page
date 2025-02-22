@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.header-links {
+  display: flex;
+}
+
+.head-section {
+  display: flex;
+}
+
+.image-placeholder {
+  display: flex;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-container {
+  display: flex;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-section {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
