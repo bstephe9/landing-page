@@ -122,6 +122,24 @@ body {
 .quote-section {
   display: flex;
   flex-direction: column;
+  background: #e5e7eb;
+  align-items: center;
+  justify-content: space-around;
+  padding: 100px;
+}
+
+.quote {
+  font-size: 30px;
+  font-style: italic;
+  width: 70%;
+  margin: 0;
+}
+
+.signature {
+  font-size: 20px;
+  font-weight: bold;
+  align-self: flex-end;
+  width: 36%;
 }
 
 .sign-up-section {
