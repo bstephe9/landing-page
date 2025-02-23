@@ -175,5 +175,10 @@ body {
 }
 
 .footer {
+  background: #1f2937;
+  height: 15vh;
+  color: #e5e7eb;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
