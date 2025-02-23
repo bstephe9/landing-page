@@ -69,7 +69,7 @@ body {
   color: #e5e7eb;
 }
 
-.head-section .button {
+.button {
   background-color: #3b82f6;
   color: #f9faf8;
   padding: 8px 16px;
@@ -144,6 +144,34 @@ body {
 
 .sign-up-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+}
+
+.sign-up-section .container {
+  background: #3882f6;
+  padding: 24px 224px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.sign-up-section .text-container {
+  color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up-section .heading {
+  margin-bottom: 0;
+}
+
+.sign-up-section .button {
+  border: 2px solid white;
+  height: 50%;
+  padding: 8px 24px;
 }
 
 .footer {
